@@ -12,7 +12,8 @@ a {
     background-color:#fff;
     width:45%;
     border-radius:1rem;
-    padding:5px;
+    padding:1ch;
+    margin:10px;
 }
 .nav {
     float:left;
