@@ -1,0 +1,22 @@
+body {
+color:#114;
+background-color:#ace;
+}
+.main {
+    background-color:#fff;
+    width:45%;
+    border-radius:1rem;
+    padding:5px;
+}
+.nav {
+    float:left;
+    border:1px solid #aaa;
+    border-radius:1rem;
+    height:50%;
+    width:25%;
+    overflow-y:scroll;
+    scrollbar-width:none;
+    margin:1ch;
+    padding:1ch;
+    box-sizing: border-box;
+}
