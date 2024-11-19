@@ -11,9 +11,11 @@ a {
 .main {
     background-color:#fff;
     width:45%;
+    height:fit-content;
     border-radius:1rem;
     padding:1ch;
     margin:10px;
+    overflow:scroll;
 }
 .nav {
     float:left;
