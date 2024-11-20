@@ -9,7 +9,7 @@ a {
     text-decoration:none;
 } a:hover {color:#7dd;}
 td {
-    border:#eac 1px solid;
+    border:1px solid #eac;
     padding:2px;
 }
 .main {
@@ -33,4 +33,16 @@ td {
     margin:1ch;
     padding:5px;
     box-sizing: border-box;
+}
+.chbx {
+background-color:#000; color:#fff;
+border-radius:1rem;
+padding:10px;
+margin:5px;
+text-align:right;
+
+img {float:left; width:17%; border-radius:1rem;}
+
+.a {box-shadow:#f9ffff 0px 0px 5px; border-right:3px solid #f9ffff;}
+.e {box-shadow:#fdc 0px 0px 5px; border-right:3px solid #fea;}
 }
