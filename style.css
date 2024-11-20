@@ -1,7 +1,7 @@
 body {
 color:#114;
 background-color:#ace;
-font-family:monospace,monospace;
+font-family:"Courier New",monospace;
 }
 p, li {font-size:11pt;}
 a {
@@ -16,7 +16,7 @@ td {
     background-color:#fff;
     width:50%;
     height:fit-content;
-    border-radius:0.5rem;
+    border-radius:1rem;
     padding:1ch;
     margin:10px;
     overflow:scroll;
