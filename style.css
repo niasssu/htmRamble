@@ -1,7 +1,7 @@
 body {
 color:#114;
 background-color:#ace;
-font-family:"Courier New",monospace;
+font-family:"Letter Gothic","Consolas",monospace;
 }
 p, li {font-size:11pt;}
 a {
@@ -12,6 +12,9 @@ td {
     border:1px solid #eac;
     padding:2px;
 }
+h3 {font-family:"Courier New",monospace;}
+
+
 .main {
     background-color:#fff;
     width:50%;
@@ -34,6 +37,7 @@ td {
     padding:5px;
     box-sizing: border-box;
 }
+.dark {background-color:#224; color:#aaa;}
 .chbx {
 background-color:#000; color:#fff;
 border-radius:1rem;
