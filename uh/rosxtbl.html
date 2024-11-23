@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<head><link rel="stylesheet" href="../style.css" /><title>rosxtbl</title></head>
+<body><center>
+<div class="main">
+<p>so i was doing some stuff one day and came up with this table:</p>
+<table>
+<tr><th></th><th>none</th><th>opp</th><th>same</th><th>all</th></tr>
+<tr><th>none</th><td></td><td></td><td></td><td></td></tr>
+<tr><th>opp</th><td></td><td></td><td></td><td></td></tr>
+<tr><th>same</th><td></td><td></td><td></td><td></td></tr>
+<tr><th>all</th><td></td><td></td><td></td><td></td></tr>
+</table>
+<p>you may know what this is already.</p>
+<p>this may have already been thought of, i dunno. i do distinguish "both" and "all", the distinction is just omitted for demonstration.</p>
+<p>with each set having four possible values, we can convert said values to two binary digits.</p>
+<table>
+<tr><th></th><th>00</th><th>01</th><th>10</th><th>11</th></tr>
+<tr><th>00</th><td>0000</td><td>0001</td><td>0010</td><td>0011</td></tr>
+<tr><th>01</th><td>0100</td><td>0101</td><td>0110</td><td>0111</td></tr>
+<tr><th>10</th><td>1000</td><td>1001</td><td>1010</td><td>1011</td></tr>
+<tr><th>11</th><td>1100</td><td>1101</td><td>1110</td><td>1111</td></tr>
+</table>
+<p>the output values are just nybbles! which means we can convert them to hexadecimal digits.</p>
+<p>you can encode your orientation in half a byte.</p>
+</div>
+<div class="main">
+<p>idk, this was just a random idea i thought too hard abt one day, and i'm sharing it here jbc.</p>
+<p>using this system would require the distinction of bi and pan to be omitted, and another layer of [in-group]ness.</p>
+</div>

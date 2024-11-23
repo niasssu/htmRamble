@@ -25,13 +25,9 @@ h3 {font-family:"Courier New",monospace;}
     overflow:scroll;
 }
 .nav {
-    float:left;
-    text-align:left;
     border:1px solid #aaa;
     border-radius:1rem;
-    height:250px;
-    width:15%;
-    overflow-y:scroll;
+    width:50%;
     scrollbar-width:none;
     margin:1ch;
     padding:5px;
@@ -45,6 +41,7 @@ padding:10px;
 margin:5px;
 text-align:right;
 height:fit-content;
+overflow:scroll;
 
 img {float:left; width:17%; border-radius:1rem;}
 }
