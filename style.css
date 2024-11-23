@@ -25,11 +25,12 @@ h3 {font-family:"Courier New",monospace;}
     overflow:scroll;
 }
 .nav {
+text-align:left; float:right;
     border:1px solid #aaa;
     border-radius:1rem;
-    width:50%;
+    width:45%;
     scrollbar-width:none;
-    margin:1ch;
+    margin:10px;
     padding:5px;
     box-sizing: border-box;
 }
